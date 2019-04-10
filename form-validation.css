@@ -1,0 +1,63 @@
+.container {
+  max-width: 960px;
+
+}
+nav {
+	background-color: black;
+}
+
+.container > .py-5 {
+	background-color: rgba(248,249,250,1.00);
+	color: white;
+}
+
+.container> h2 {
+	text-align: center;
+	align-content: bottom;
+}
+
+	
+
+/*.container > h2{
+padding-bottom: 1.5em;
+	color: white;
+vertical-align: bottom;}*/
+
+
+.checkoutfooter {
+	background-color: black;
+	
+}
+
+.container> py-5 text-center {
+	color: black;
+}
+div.py-5.text-center {
+	color: rgba(108,117,125,1.00);
+}
+
+.btn {
+	padding-right: 15px;
+	
+	background-color: gold;
+	color: white;
+	border: 2px solid gold;
+
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+.border-top-gray { border-top-color: #adb5bd; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.lh-condensed { line-height: 1.25; }
+
+.footer-copyright {
+	text-transform: lowercase;
+    font-family: 'Raleway', sans-serif;
+    position: center; 
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}

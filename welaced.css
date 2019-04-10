@@ -1,0 +1,238 @@
+body {
+  padding-top: 5rem;
+}
+
+h1 { 
+	text-transform: lowercase;
+    font-family: 'Raleway', sans-serif;
+    position: left; 
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+	letter-spacing: 5px;
+}
+
+body, html {
+	margin: 2%;
+	background-color: black;
+	font-family: 'Catamaran', sans-serif;
+}
+
+nav {
+	background-color: black;
+	color: gold;
+	font-family: 'Raleway', sans-serif;
+}
+
+a {
+	-o-transition:color .2s ease-out, background 1s ease-in;
+    -ms-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+	font-family: 'Catamaran', sans-serif;
+	letter-spacing: 2px;
+}
+
+a:link { 
+	color: white;
+}
+
+a:visited { 
+	color: grey;
+}
+
+a:hover {
+    color: gold;
+	text-decoration: none;
+}
+
+a:active {
+	color: gold;
+}
+
+.btn {
+	background-color: gold;
+	color: white;
+	border: 2px solid gold;
+}
+
+.jumbotron {
+	background-image: url(images/flower.jpg);
+}
+
+h1 {
+	text-align: center;
+	padding-bottom: 1.3em;
+	color: white;
+}
+
+#corporate {
+	color: white;
+}
+#container {
+	height: 125px;
+	text-align: justify;
+	border:3px dashed white;
+	font-size: 12;
+	min-width:inherit;
+}
+
+#container div {
+	width: 150px;
+	height: 125px;
+	display: inline-block;
+	background: grey;
+}
+
+#container:after {
+	content: '';
+	width: 100%;
+	display: inline-block;
+}
+
+.carousel-item {
+	border-style: solid;
+	border-color: gold;
+}
+
+.carousel-item h2 {
+	border-style: solid;
+	border-color: gold;
+	background-color: rgba(0,0,0, 0.3);
+	align-content: center;
+	padding-top: 1.3em;
+	padding-bottom: 0.5em;
+	text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+	letter-spacing: 3px;
+}
+
+#focus {
+	padding-bottom: 5em;
+}
+
+#learn {
+	object-fit: contain;
+	height: 130px;
+}
+
+#transparency {
+	object-fit: contain;
+	height: 130px;
+}
+
+#authenticated {
+	object-fit: contain;
+	height: 130px;
+}
+
+#trending4 {
+	object-fit: cover;
+	width: 400px;
+	height: 300px;
+}
+
+#trending5 {
+	object-fit: cover;
+	width: 400px;
+	height: 300px;
+}
+
+#trending6 {
+	object-fit: cover;
+	width: 400px;
+	height:300px
+}
+
+.row { 
+width: 100%;
+}
+
+.row_cell {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    margin: 1em 1em; 
+    border: solid 1px white;
+}
+
+h4 {
+	color: gold;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 3px;
+}
+
+.title {
+	padding-top: 15px;
+}
+
+.trending {
+	display: flex;
+	justify-content: space-between;
+}
+
+h5 {
+	text-transform: lowercase;
+    font-family: 'Raleway', sans-serif;
+	letter-spacing: 3px;
+	color:gold;
+}
+
+#seewhats {
+	background-color: white;
+}
+
+#seewhats > h1 {
+	color: black;
+	padding-top: 1.3em;
+	padding-bottom: 1.3em;
+}
+
+#seewhats a:link {
+	color: black;
+}
+
+#seewhats a:visited {
+	color: grey;
+}
+
+#seewhats a:hover {
+	color: gold;
+}
+
+#seewhats a:active {
+	color: gold;
+}
+.col-md-6 > p {
+	letter-spacing: 2px;
+	font-size: 13px;
+	color: white;
+}
+footer {
+	color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer p {
+	font-weight: 100;
+	color: grey;
+}
+
+.trending {
+	padding-top: 0.75em;
+	text-transform: lowercase;
+    font-family: 'Raleway', sans-serif;
+	letter-spacing: 3px;
+	color: black;
+}
+
+.footer-copyright {
+	text-transform: lowercase;
+    font-family: 'Raleway', sans-serif;
+    position: left; 
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}

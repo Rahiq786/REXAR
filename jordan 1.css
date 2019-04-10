@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+div > .container {
+	background-color: white;
+	padding-top: 3em;
+	padding-bottom: 2em;
+	color: grey;
+}
+
+h2 {
+	color: black;
+	text-transform: uppercase;
+	font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.shoedes {
+	color: grey;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	letter-spacing: 1.25px;
+}
+
+
+#j1shadow {
+	padding-left: 7em;
+}
+
+h4 {
+	text-transform: upper;
+	font-size: 25px;
+}
+
+.titlejordan {
+	color: gold;
+}
+
+.titlejordan2 {
+	color: grey;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	text-transform: capitalize;
+}
+
+label {
+	display: inline-block;
+	text-align: right;
+}
+
+.custom-select:hover {
+	background-color: gold;
+}
+
+.shoedes > a {
+	color: grey;
+}
+
+.shoedes > a:hover {
+	color: gold;
+}
